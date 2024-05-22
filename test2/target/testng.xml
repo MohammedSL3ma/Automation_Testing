@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests">
+    <test verbose="2" preserve-order="true" name="Ecommerce Testing">
+        <classes>
+            <class name="Tests.CreateAccountTest"/>
+            <class name="Tests.ShopProductsTest"/>
+            <class name="Tests.SearchResultTest"/>
+            <class name="Tests.AddToFavoriteTest"/>
+            <class name="Tests.AddToBasketTest"/>
+        </classes>
+    </test>
+</suite>
